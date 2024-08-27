@@ -2,3 +2,6 @@
 
 > [!NOTE]
 > Este arquivo sera atualizado conforme a resolução de exercicios..
+>
+> [!WARNING]
+> Fique atendo para o arquivo não ficar desatualizado.
