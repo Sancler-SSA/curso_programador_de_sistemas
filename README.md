@@ -1,4 +1,4 @@
-# Curso Programador de Sistemas -  SENAC - GO
+# Curso _Programador de Sistemas_ -  SENAC - GO
 
 > [!NOTE]
 > Este arquivo sera atualizado conforme a resolução de exercicios.
