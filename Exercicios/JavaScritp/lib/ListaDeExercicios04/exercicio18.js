@@ -9,7 +9,7 @@ function contaVogais(palavra){
         if(char == "i") contador++;
         if(char == "o") contador++;
         if(char == "u") contador++;
-
+    }
 
     return contador;
 }
