@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nome e Sobrenome</title>
+	<script type="text/javascript" src="lib/nomeSobrenome.js"></script>
+</head>
+<body>
+	<h1>Fazendo um codigo que imprima nome e sobrenome</h1>
+	<p>Solicite ao usuario que insira o nome e seu sobrenome</p>
+	<hr>
+</body>
+</html>
+<script>
+	
+	// declarando as variaveis
+
+	var nome, sobrenome, mensagem, nomecompleto;
+
+	// entrada de dados
+
+	nome = window.prompt("Digite seu primeiro nome");
+	sobrenome = window.prompt("Digite seu sobrenome");
+
+	// processamento de dados
+
+	nomecompleto = pessoa(nome, sobrenome);
+	mensagem = `O seu nome completo e <b>${nomecompleto}</b>`;
+
+
+	//saida de dados
+
+	document.write(mensagem)
+</script>
+
+</html>

@@ -1,0 +1,40 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Declarando variaveis para obter o resto da divisão</title>
+</head>
+<body>
+<h1>Sera solitado ao usuario que o mesmo digite dois numeros, para poder conseguir o resto da divisão</h1>
+<hr>
+</body>
+</html>
+<script type="text/javascript">
+
+	// Declarando as variaveis
+
+	var n1, n2, resto, resultado, mensagem;
+
+
+	// Entrada de dados
+
+	n1 = Number(prompt("Digite o numerador"));
+	n2 = Number(prompt("Digite o denominador"));
+
+
+	// Processamento de dados
+
+	resto = n1 % n2;
+	resultado = (n1 - resto) / n2;
+
+
+	// mensagem
+
+	mensagem = `O resto da divisão de ${n1} e ${n2} e igual ${resultado}`;
+
+	// saida de dados
+
+	document.write(mensagem);
+
+</script>

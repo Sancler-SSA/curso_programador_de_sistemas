@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Divisão</title>
+</head>
+<script src="lib/divisao.js"></script>
+<body>
+	<h1>Fazendo a divisão de numeros</h1>
+
+	<p>O exercicio solicita ao usuario que o mesmo digite dois numero para que a maquina possa fazer a divisão</p>
+</body>
+</html>
+
+<script type="text/javascript">
+	// Declarando as variaveis
+
+	var n1, n2, resultado, mensagem;
+
+
+	// Entrada de dados
+
+	n1 = Number(prompt("Digite o numerador"));
+	n2 = Number(prompt("Digite o denominador"));
+
+
+	// Processamento de dados
+
+	resultado = divisao(n1, n2);
+
+
+	// mensagem
+
+	mensagem = `A divisao inteira de ${n1} e ${n2} e igual ${resultado}`;
+
+	// saida de dados
+
+	document.write(mensagem);
+
+</script>

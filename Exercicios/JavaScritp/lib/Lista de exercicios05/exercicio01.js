@@ -1,0 +1,1 @@
+1. separe uma frase em palavras:
